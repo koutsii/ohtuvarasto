@@ -8,4 +8,8 @@ int main() {
 	*pA += 1;
 
 	std::cout << a;
+
+	*pA *= 2;
+
+	std::cout << a;
 }
